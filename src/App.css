@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.card {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  width: 450px;
+  height: 700px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image {
+  width: 450px;
+  box-shadow: 2px 2px 3px rgba(68, 68, 68, 0.6);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skilllist {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.skillButton {
+  display: flex;
+  margin: 3px;
+  padding: 3px;
+  /* width: 45%; */
+  border: 1px solid lightslategrey;
+  border-radius: 2px;
+  box-shadow: inset 0px 0px 5px rgba(68, 68, 68, 0.6)
+      /* , inset -5px -5px 10px blue; */,
+    1px 1px 3px rgba(68, 68, 68, 0.6);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .name, .title, .description  */
+body {
+  font-family: "Courier New", Courier, monospace;
 }
+
+/* .html {
+  background-color: #861657;
+}
+
+.css {
+  background-color: #a64253;
+}
+
+.js {
+  background-color: #fcf0cc;
+}
+
+.react {
+  background-color: #d56aa0;
+} */
